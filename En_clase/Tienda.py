@@ -14,14 +14,3 @@
 #al pasar por la caja registradora y el monto de sus productos es superior a $50000 pesos\
     #podra sacar una balota de nuestra bolsa sorpresa y dependiendo del color de la balota que saque asi\
     #aplicara el descuento en caja")
-evento=True and False
-roja=100
-verde=0.50
-blanca=0.30
-negra=0.20
-amarilla=0.10
-compra=int(input("Digite el valor de la compra: "))
-if compra>50000:
-    evento=bool(input("Desea participar en la promocion?: "))
-    if evento==True
-    

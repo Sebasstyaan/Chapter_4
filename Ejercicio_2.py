@@ -1,9 +1,12 @@
 puede_volar=bool(input('¿El heroe puede volar?: '))
-puede_volar=True and False
+#puede_volar=True and False
 es_humano=bool(input('¿El heroe es humano?: '))
-es_humano=True and False
+#es_humano=True and False
 tiene_mascara=bool(input('¿El heroe tiene mascara?: '))
-tiene_mascara=True and False
+#tiene_mascara=True and False
+print(puede_volar)
+print(es_humano)
+print(tiene_mascara)
 
 if puede_volar is True and es_humano is True and tiene_mascara is True:
     print('El Heroe Es Iroman')
