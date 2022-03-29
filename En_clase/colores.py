@@ -1,8 +1,11 @@
-color='#FF0000'
+color=input('Digite que su color favorito: ')
+
 match color:
-    case '#FF0000':
+    case 'Rojo':
         print('🔴')
-    case '#00FF00':
+    case 'Verde':
         print('🟢')
-    case '#0000FF':
+    case 'Azul':
         print('🔵')
+    case _:
+        print('Error')
