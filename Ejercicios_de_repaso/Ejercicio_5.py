@@ -6,16 +6,21 @@
 #hasta llegar al punto objetivo
 x=int(input('Digite el numero: '))
 y=int(input('Digite el numero: '))
-p1=0
-p2=0
-flujo=True
-while p1!=x and p2!=y:
-    if flujo:
-        p1+=1
-        p2+=2
-        print(f'({p1}.{p2})', end=',')
-    else:
-        p1+=2
-        p2+=1
-        print(f'({p1}.{p2})', end=',')
-        #flujo=not flujo
+for x in range(0,1):
+    for y in range(0,1):
+        print(f'({x},{y})', end=',')
+        x+=1
+        y+=2
+        print(f'({x},{y})', end=',')
+        x+=2
+        y+=1
+        print(f'({x},{y})', end=',')
+        x+=1
+        y+=2
+        print(f'({x},{y})', end=',')
+        x+=2
+        y+=1
+        print(f'({x},{y})', end=',')
+        x+=1
+        y+=2
+        print(f'({x},{y})', end=',')
